@@ -8,15 +8,15 @@ OUT = ROOT  # write built pages next to index.html
 # ---------- Shared shell ----------
 NAV = [
     ("Home", "index.html"),
-    ("Kitchen Setup", "kitchen-setup.html"),
-    ("Stovetop & Oven", "stovetop-oven.html"),
-    ("Prep & Reach", "prep-reach.html"),
+    ("Setup", "kitchen-setup.html"),
+    ("Stove &amp; oven", "stovetop-oven.html"),
+    ("Prep", "prep-reach.html"),
     ("Toolkit", "toolkit.html"),
-    ("Meal Planning", "meal-planning.html"),
+    ("Planning", "meal-planning.html"),
     ("Safety", "safety.html"),
     ("Cleanup", "cleanup.html"),
     ("Groceries", "groceries.html"),
-    ("Troubleshooting", "troubleshooting.html"),
+    ("Fixes", "troubleshooting.html"),
     ("About", "about.html"),
 ]
 
@@ -24,15 +24,15 @@ LOGO_SVG = '''
 <svg class="brand__mark" viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
   <!-- Wheel -->
   <circle cx="14" cy="26" r="10"/>
-  <circle cx="14" cy="26" r="2" fill="currentColor" stroke="none"/>
-  <line x1="14" y1="16" x2="14" y2="36"/>
-  <line x1="4" y1="26" x2="24" y2="26"/>
-  <!-- Wheat sprig -->
-  <path d="M28 20 L34 6" />
-  <path d="M31 14 Q34 14 34 11" />
-  <path d="M31 14 Q28 14 28 11" />
-  <path d="M30 17 Q33 17 33 14" />
-  <path d="M30 17 Q27 17 27 14" />
+  <circle cx="14" cy="26" r="1.8" fill="currentColor" stroke="none"/>
+  <line x1="14" y1="17" x2="14" y2="35"/>
+  <line x1="5" y1="26" x2="23" y2="26"/>
+  <!-- Wheat sprig, contained within viewBox -->
+  <path d="M30 20 L34 10" />
+  <path d="M31.6 16 Q34.5 16 34.5 13" />
+  <path d="M31.6 16 Q28.5 16 28.5 13" />
+  <path d="M30.6 18.5 Q33.5 18.5 33.5 15.5" />
+  <path d="M30.6 18.5 Q27.5 18.5 27.5 15.5" />
 </svg>
 '''.strip()
 
